@@ -13,6 +13,10 @@
                 android:id="@+id/nav_loaiSP"
                 android:icon="@drawable/ic_donhang"
                 android:title="Loại Sản Phẩm" />
+            <item
+                android:id="@+id/nav_donHang"
+                android:icon="@drawable/ic_list"
+                android:title="Đơn Hàng" />
         </menu>
     </item>
 </menu>

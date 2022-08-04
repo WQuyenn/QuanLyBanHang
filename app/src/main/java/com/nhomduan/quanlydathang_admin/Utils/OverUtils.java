@@ -1,9 +1,12 @@
 package com.nhomduan.quanlydathang_admin.Utils;
 
+import static android.content.Context.MODE_PRIVATE;
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
@@ -24,6 +27,14 @@ public class OverUtils {
     public static final String HET_HANG = "HET_HANG";
     public static final String SAP_RA_MAT = "SAP_RA_MAT";
 
+
+    public static final String PASS_LOGIN_ACTIVITY = "PASS_LOGIN";
+    public static final String NO_PASS = "NO_PASS";
+    public static final String PASS_MAIN_ACTIVITY = "PASS_MAIN_ACTIVITY";
+    public static final String PASS_FILE = "PASS_FILE";
+
+    private static SharedPreferences sharedPreferences;
+
     public static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm * dd/MM/yyyy");
     private static Locale locale = new Locale("vi", "VN");
     public static NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(locale);
@@ -33,6 +44,13 @@ public class OverUtils {
     public static void makeToast(Context context, String message) {
         Toast.makeText(context, message, Toast.LENGTH_LONG).show();
     }//
+
+    public static SharedPreferences getSPInstance(Context context, String nameFile) {
+        if (sharedPreferences == null) {
+            sharedPreferences = context.getSharedPreferences(nameFile, MODE_PRIVATE);
+        }
+        return sharedPreferences;
+    }
 
     public static String getExtensionFile(Context context, Uri uri) {
         ContentResolver cr = context.getContentResolver();

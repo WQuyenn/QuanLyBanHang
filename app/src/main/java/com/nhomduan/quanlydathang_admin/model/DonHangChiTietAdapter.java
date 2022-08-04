@@ -1,4 +1,4 @@
-package com.nhomduan.quanlydathang_admin.adapter;
+package com.nhomduan.quanlydathang_admin.model;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.nhomduan.quanlydathang_admin.R;
 import com.nhomduan.quanlydathang_admin.Utils.OverUtils;
-import com.nhomduan.quanlydathang_admin.model.DonHangChiTiet;
-import com.nhomduan.quanlydathang_admin.model.Product;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

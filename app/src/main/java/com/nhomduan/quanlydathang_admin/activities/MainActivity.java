@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 import com.nhomduan.quanlydathang_admin.R;
+import com.nhomduan.quanlydathang_admin.fragment.DanhSachDonHangFragment;
 import com.nhomduan.quanlydathang_admin.fragment.DanhSachLoaiSanPhamFragment;
 import com.nhomduan.quanlydathang_admin.fragment.DanhSachSanPhamFragment;
 
@@ -58,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_loaiSP:
                 replaceFragment(new DanhSachLoaiSanPhamFragment());
+                break;
+            case R.id.nav_donHang:
+                replaceFragment(new DanhSachDonHangFragment());
                 break;
         }
         mDrawerLayout.closeDrawer(GravityCompat.END);

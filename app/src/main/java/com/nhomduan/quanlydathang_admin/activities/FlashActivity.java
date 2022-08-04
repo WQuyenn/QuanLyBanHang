@@ -8,14 +8,11 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
+
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.firebase.database.DatabaseError;
+
 import com.nhomduan.quanlydathang_admin.R;
 import com.nhomduan.quanlydathang_admin.Utils.OverUtils;
-
-import java.util.Timer;
-import java.util.TimerTask;
 
 
 public class FlashActivity extends AppCompatActivity {

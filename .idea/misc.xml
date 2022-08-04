@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/QLNHADMIN/app/src/main/res/layout/activity_flast.xml" value="0.1" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/activity_show_product.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/dialog_sua_loai_sp.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/dialog_them_loai_sp.xml" value="0.25" />
+        <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_chi_tiet_don_hang.xml" value="0.12158054711246201" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_chi_tiet_san_pham.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_danh_sach_san_pham_by_loai_s_p.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_loai_s_p.xml" value="0.25" />
@@ -14,6 +16,7 @@
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_sanpham.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_show_product.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/fragment_xem_san_pham.xml" value="0.25" />
+        <entry key="..\:/QLNHADMIN/app/src/main/res/layout/item_don_hang_chi_tiet.xml" value="0.1" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/item_loai_sp.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/item_product_spinner.xml" value="0.25" />
         <entry key="..\:/QLNHADMIN/app/src/main/res/layout/item_san_pham.xml" value="0.25" />
