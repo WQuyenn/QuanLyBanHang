@@ -11,29 +11,28 @@
 
     <TextView
         android:id="@+id/tvHoTen"
-        android:text="Họ tên: Nguyễn Doãn Hùng"
+        android:text="Họ tên: NO phước thịnh"
         android:gravity="center|left"
         android:textColor="@color/black"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="30dp"/>
     <TextView
         android:id="@+id/tvSDT"
         android:text="SĐT : +84868538942"
         android:layout_width="match_parent"
         android:gravity="center|left"
         android:textColor="@color/black"
-        android:layout_height="40dp"/>
+        android:layout_height="30dp"/>
     <TextView
         android:id="@+id/tvDiaChi"
         android:text="Địa chỉ : 123 Nguyễn Trãi, ThanhXuan, Hà Nội"
         android:layout_width="match_parent"
         android:gravity="center|left"
         android:textColor="@color/black"
-        android:layout_height="40dp"/>
+        android:layout_height="30dp"/>
     <TextView
         android:id="@+id/tvSanPhams"
-        android:text="Sản phẩm : \n \tBánh mì OT(3)
-                        \n \tKem mực(2)"
+        android:text="Sản phẩm :  \tBánh mì OT(3)  \tKem mực(2)"
         android:layout_width="match_parent"
         android:textColor="@color/black"
         android:textSize="18sp"

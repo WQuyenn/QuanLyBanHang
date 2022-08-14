@@ -63,7 +63,7 @@ public class DonHangAdapter extends RecyclerView.Adapter<DonHangAdapter.DonHangV
 
         StringBuilder stringBuilder = new StringBuilder("Sản Phẩm : ");
         for(DonHangChiTiet donHangChiTiet : donHang.getDon_hang_chi_tiets()) {
-            stringBuilder.append( "\n" + donHangChiTiet.getProduct().getName() + " (" + donHangChiTiet.getSo_luong() + ")");
+            stringBuilder.append(donHangChiTiet.getProduct().getName() + " (" + donHangChiTiet.getSo_luong() + ")");
         }
         holder.tvSanPhams.setText(stringBuilder.toString());
         holder.item.setOnClickListener(view -> onClickItem.onClickItem(donHang.getId()));

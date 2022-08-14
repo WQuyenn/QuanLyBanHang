@@ -163,6 +163,7 @@ public class ProductTypeDao {
                                     iAfterDeleteObject.onError(error);
                                 }
                             });
+
                     ProductDao.getInstance().getAllProduct(new IAfterGetAllObject() {
                         @Override
                         public void iAfterGetAllObject(Object obj) {
@@ -181,8 +182,5 @@ public class ProductTypeDao {
                     });
                 })
                 .show();
-
     }
-
-
 }
